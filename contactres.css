@@ -1,0 +1,79 @@
+@media screen and (max-width: 1212px) {
+    .contactDetails{
+        height:700px;width:100%;
+        /* background-color: blanchedalmond; */
+       color: white;margin: auto;
+    }
+    .contactDetails .map{
+        width:80%;height:90%;margin:auto 10%;
+       
+    }.contactDetails .details{
+        width: 100%;height:90%;
+      
+    }
+    .details .icons{
+        display: inline-flex;flex-flow: wrap;
+        padding:20px;margin: left;
+    }
+
+    .icons .det{
+        width:50%;height:130px;font-size: small;
+        display: flex;
+     }
+     .details .opt{
+        padding: 7px;background-color:orangered;
+        background-color: orangered;
+        border-top-right-radius:10px; border-bottom-left-radius:10px;
+    }
+    .details h3{
+        margin:10px 70px;font-size:20px;font-weight: 400;
+    }
+.details h1{
+    margin-left:70px;
+}
+
+}
+@media screen and (max-width:773px){
+    .contactDetails .map{
+        width:90%;height:70%;margin:auto 5%;
+       
+    }.contactDetails .details{
+        width: 100%;height:auto;
+      
+    }
+    .details .icons{
+        display: inline-flex;flex-flow: wrap;
+        padding:20px;margin: left;
+    }
+
+    .icons .det{
+        width:70%;height:130px;font-size: small;
+        display: flex;margin-top:10px;
+     }
+
+     .details h3{
+        margin:10px 30px;font-size:20px;font-weight: 400;
+    }
+.details h1{
+    margin-left:30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 773px) {}
